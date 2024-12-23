@@ -12,7 +12,7 @@
 /[Mm]emoryCaptures/
 /[Rr]ecordings/
 Assets/Plugins/unused/
-Assets/Plugins/uwused/
+# Assets/Plugins/uwused/
 # /[Uu]serSettings/
 
 # Never ignore Asset meta data
