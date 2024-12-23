@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 871777ed8cf0f774989f7ea57608481b, type: 3}
+  m_Name: Projectile_Fireball
+  m_EditorClassIdentifier: 
+  m_assetVersion: 1
+  m_id:
+    m_uniqueId: ProjectileDefinition_4
+  m_type: 1
+  m_impactDamage: 25
+  m_impactDamageType: {fileID: 0}
+  m_projectilePrefab: {fileID: 6488721831316452807, guid: 70ce6fa084b0446439d31bdd858bae71, type: 3}
+  m_projectileLayer: 2
+  m_explosionType: 1
+  m_lifetime: 8
+  m_speed: 33
+  m_scale: 1
+  m_randomRotation: 0
+  m_destroyAfterFirstImpact: 1
+  m_allowRepeatedImpactDamage: 0
+  m_maxBounces: 0
+  m_gravity: -20
+  m_drag: 0
+  m_penetrableTag: 
+  m_maxPenetrations: 1
+  m_impactForce: 0
+  m_hitLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_maxDistance: 1000
+  m_explodeOnImpact: 0
+  m_explosionDamageMin: 20
+  m_explosionDamageMax: 50
+  m_explosionRadius: 13
+  m_explosionOverlapLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_explosionObstacleLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_explosionDamageType: {fileID: 0}
+  m_impactEffectMinSpeed: 0
+  m_impactEffect: {fileID: 0}
+  m_explosionEffect: {fileID: 3551927635201007296, guid: 8dfea187e0f986e4a8b092eb0e5591f9, type: 3}
+  m_projectileTrailPrefab: {fileID: 7247340750503053305, guid: 8ef0380fd320f1e4ba93786f48442ede, type: 3}
+  m_instantHitTrailPrefab: {fileID: 0}

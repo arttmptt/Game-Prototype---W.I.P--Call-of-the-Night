@@ -1,0 +1,80 @@
+.HeaderText {
+	font-size: 20px;
+	-unity-font-style: bold;
+	-unity-text-align: middle-center;
+	color: white;
+}
+
+.SubHeaderText {
+	font-size: 15px;
+	-unity-font-style: bold;
+	-unity-text-align: middle-center;
+	color: white;
+}
+
+.WeaponDefinitionGroup {
+	margin: 4px;
+	padding: 6px;
+	border-width: 2px;
+	border-color: #2EABC1;
+	background-color: #155056;
+	font-size: 12px;
+}
+
+.unity-label {
+	color: white;
+}
+
+.FrequencyValueContainer {
+	padding-left: 3px;
+}
+
+.FrequencyValueHeader {
+}
+
+.FoldoutRoot {
+}
+
+.FoldoutHeader {
+	font-size: 14px;
+	-unity-font-style: bold;
+	-unity-text-align: middle-center;
+}
+
+.FoldoutArrow {
+	width: 16px;
+	height: 16px;
+}
+
+.FoldoutArrowExpanded {
+	background-image: var(--unity-icons-foldout-checked);
+}
+
+.FoldoutArrowCollapsed {
+	background-image: var(--unity-icons-foldout);
+}
+
+.FoldoutHeaderContainer {
+}
+
+.FoldoutContentsContainer {
+	padding-bottom: 6px;
+}
+
+.TriggerConfigFoldout {
+}
+
+.AmmoConfigFoldout {
+}
+
+.BurstConfigFoldout {
+}
+
+.MultiShotConfigFoldout {
+}
+
+.ShotSpreadConfigFoldout {
+}
+
+.ProjectileConfigFoldout {
+}

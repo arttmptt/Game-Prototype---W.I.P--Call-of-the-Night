@@ -11,7 +11,7 @@
 /[Ll]ogs/
 /[Mm]emoryCaptures/
 /[Rr]ecordings/
-Assets/Plugins/unused/
+# Assets/Plugins/unused/
 # Assets/Plugins/uwused/
 # /[Uu]serSettings/
 

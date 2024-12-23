@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:engine="UnityEngine.UIElements"
+    xmlns:editor="UnityEditor.UIElements"
+    xmlns:fullyloaded="FullyLoaded"
+>
+  <engine:Label text="Weapon Definition" class="HeaderText"/>
+  <engine:VisualElement>
+
+    <engine:VisualElement class="WeaponDefinitionGroup" name="CommonGroup">
+      <editor:PropertyField binding-path="m_id"/>
+      <editor:PropertyField binding-path="m_weaponName"/>
+      <editor:PropertyField binding-path="m_weaponSwitchConfig"/>
+    </engine:VisualElement>
+
+    <engine:VisualElement style="height: 8px"/>
+    
+    <engine:VisualElement class="WeaponDefinitionGroup" name="PrimaryGroup">
+      <engine:Label text="Primary Fire Config" class="SubHeaderText"/>
+      <engine:VisualElement name="primaryFire"/>
+    </engine:VisualElement>
+
+    <engine:VisualElement style="height: 8px"/>
+    
+    <engine:VisualElement class="WeaponDefinitionGroup" name="SecondaryGroup">
+      <engine:VisualElement style="flex-direction: row">
+        <engine:Toggle name="secondaryFireEnabled" binding-path="m_secondaryFireEnabled"/>
+        <engine:Label text="Secondary Fire Config" class="SubHeaderText"/>
+      </engine:VisualElement>
+      <engine:VisualElement name="secondaryFire"/>
+    </engine:VisualElement>
+    
+  </engine:VisualElement>
+</engine:UXML>

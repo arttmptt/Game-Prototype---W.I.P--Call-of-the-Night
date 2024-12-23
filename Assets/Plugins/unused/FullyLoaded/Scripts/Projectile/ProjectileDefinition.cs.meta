@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 871777ed8cf0f774989f7ea57608481b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_impactDamageType: {instanceID: 0}
+  - m_projectilePrefab: {instanceID: 0}
+  - m_explosionDamageType: {instanceID: 0}
+  - m_impactEffect: {instanceID: 0}
+  - m_explosionEffect: {instanceID: 0}
+  - m_projectileTrailPrefab: {instanceID: 0}
+  - m_instantHitTrailPrefab: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

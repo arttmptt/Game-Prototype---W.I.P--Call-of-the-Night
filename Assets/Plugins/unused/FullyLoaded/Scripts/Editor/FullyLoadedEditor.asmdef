@@ -1,0 +1,18 @@
+{
+    "name": "FullyLoadedEditor",
+    "rootNamespace": "FullyLoaded",
+    "references": [
+        "GUID:9649dae4adf744d4eb42434eb412db6b"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

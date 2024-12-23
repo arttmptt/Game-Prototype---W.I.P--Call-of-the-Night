@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 871777ed8cf0f774989f7ea57608481b, type: 3}
+  m_Name: Projectile_MinigunRound
+  m_EditorClassIdentifier: 
+  m_assetVersion: 1
+  m_id:
+    m_uniqueId: ProjectileDefinition_9
+  m_type: 0
+  m_impactDamage: 1
+  m_impactDamageType: {fileID: 0}
+  m_projectilePrefab: {fileID: 2451267575434800376, guid: 91651963f403df04491c06218be933f7, type: 3}
+  m_projectileLayer: 0
+  m_explosionType: 0
+  m_lifetime: 3
+  m_speed: 50
+  m_scale: 1
+  m_randomRotation: 0
+  m_destroyAfterFirstImpact: 1
+  m_allowRepeatedImpactDamage: 0
+  m_maxBounces: 0
+  m_gravity: 0
+  m_drag: 0
+  m_penetrableTag: 
+  m_maxPenetrations: 1
+  m_impactForce: 25
+  m_hitLayers:
+    serializedVersion: 2
+    m_Bits: 1
+  m_maxDistance: 30
+  m_explodeOnImpact: 0
+  m_explosionDamageMin: 0
+  m_explosionDamageMax: 0
+  m_explosionRadius: 0
+  m_explosionOverlapLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_explosionObstacleLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_explosionDamageType: {fileID: 0}
+  m_impactEffectMinSpeed: 0
+  m_impactEffect: {fileID: 9009664554450155319, guid: 22b0ad7cdcfd10d47a41a02ec4198c9e, type: 3}
+  m_explosionEffect: {fileID: 0}
+  m_projectileTrailPrefab: {fileID: 0}
+  m_instantHitTrailPrefab: {fileID: 4859503324441421904, guid: 2c88b95753c97504cb85533f98419339, type: 3}

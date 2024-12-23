@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 871777ed8cf0f774989f7ea57608481b, type: 3}
+  m_Name: Projectile_Grenade_Timed
+  m_EditorClassIdentifier: 
+  m_assetVersion: 1
+  m_id:
+    m_uniqueId: ProjectileDefinition_2
+  m_type: 1
+  m_impactDamage: 1
+  m_impactDamageType: {fileID: 0}
+  m_projectileType: 0
+  m_projectilePrefab: {fileID: 6488721831316452807, guid: 3aabf3b4a364dd14fb68550927cbe460, type: 3}
+  m_projectileLayer: 2
+  m_explosionType: 2
+  m_lifetime: 3.5
+  m_speed: 34
+  m_scale: 0.3
+  m_randomRotation: 1
+  m_destroyAfterFirstImpact: 1
+  m_allowRepeatedImpactDamage: 0
+  m_maxBounces: 20
+  m_gravity: -9.8
+  m_drag: 0.119
+  m_hitLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_maxDistance: 1000
+  m_explodeOnImpact: 0
+  m_explosionDamageMin: 10
+  m_explosionDamageMax: 25
+  m_explosionRadius: 4
+  m_explosionOverlapLayers:
+    serializedVersion: 2
+    m_Bits: 1
+  m_explosionObstacleLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_explosionDamageType: {fileID: 0}
+  m_impactEffectMinSpeed: 6
+  m_impactEffect: {fileID: 9009664554450155319, guid: 22b0ad7cdcfd10d47a41a02ec4198c9e, type: 3}
+  m_explosionEffect: {fileID: 3551927635201007296, guid: ec96b6acaf257d3479b7b66dabc5804d, type: 3}
+  m_projectileTrailPrefab: {fileID: 0}
+  m_instantHitTrailPrefab: {fileID: 0}

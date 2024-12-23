@@ -1,0 +1,18 @@
+.HeaderText {
+	font-size: 20px;
+	-unity-font-style: bold;
+	-unity-text-align: middle-center;
+}
+
+.SubHeaderText {
+	font-size: 15px;
+	-unity-font-style: bold;
+	-unity-text-align: middle-center;
+}
+
+#PrefabWarningLabel {
+	color: yellow;
+	font-size: 14px;
+	-unity-font-style: bold;
+	-unity-text-align: middle-center;
+}

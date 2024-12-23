@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:engine="UnityEngine.UIElements"
+    xmlns:editor="UnityEditor.UIElements"
+    xmlns:fullyloaded="FullyLoaded"
+>
+  <engine:VisualElement class="WeaponConfigContainer">
+    
+    <fullyloaded:FoldoutHeaderElement text="Trigger Config" class="TriggerConfigFoldout">
+      <engine:VisualElement name="TriggerConfig"/>
+    </fullyloaded:FoldoutHeaderElement>
+
+    <fullyloaded:FoldoutHeaderElement text="Ammo" class="AmmoConfigFoldout">
+      <editor:PropertyField binding-path="m_ammoConfig"/>
+    </fullyloaded:FoldoutHeaderElement>
+
+    <fullyloaded:FoldoutHeaderElement text="Burst Fire" class="BurstConfigFoldout">
+      <editor:PropertyField binding-path="m_burstConfig"/>
+    </fullyloaded:FoldoutHeaderElement>
+
+    <fullyloaded:FoldoutHeaderElement text="Multiple Shots" class="MultiShotConfigFoldout">
+      <editor:PropertyField binding-path="m_multiShotConfig"/>
+    </fullyloaded:FoldoutHeaderElement>
+
+    <fullyloaded:FoldoutHeaderElement text="Shot Spread" class="ShotSpreadConfigFoldout">
+      <engine:VisualElement name="ShotSpreadConfig"/>
+    </fullyloaded:FoldoutHeaderElement>
+
+    <fullyloaded:FoldoutHeaderElement text="Projectile" class="ProjectileConfigFoldout">
+      <editor:PropertyField binding-path="m_projectile"/>
+    </fullyloaded:FoldoutHeaderElement>
+  </engine:VisualElement>
+</engine:UXML>

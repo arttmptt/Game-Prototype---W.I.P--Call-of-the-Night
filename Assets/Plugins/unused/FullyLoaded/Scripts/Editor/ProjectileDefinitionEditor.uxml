@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:engine="UnityEngine.UIElements"
+    xmlns:editor="UnityEditor.UIElements"
+    xmlns:fullyloaded="FullyLoaded"
+>
+  <engine:Label text="Projectile Definition" class="HeaderText"/>
+  <engine:VisualElement>
+
+    <editor:PropertyField binding-path="m_id"/>
+    <editor:PropertyField name="type" binding-path="m_type"/>
+    <editor:PropertyField binding-path="m_impactDamage"/>
+    <editor:PropertyField binding-path="m_impactDamageType"/>
+    
+    <engine:VisualElement style="height: 20px"/>
+    
+    <engine:VisualElement name="projectile">
+      <engine:Label text="Projectile Config" class="SubHeaderText"/>
+      <editor:PropertyField binding-path="m_projectilePrefab" name="prefab"/>
+      <engine:Label text="prefab warning" name="PrefabWarningLabel" style="height: 30px"/>
+      <editor:PropertyField binding-path="m_projectileLayer"/>
+      <editor:PropertyField binding-path="m_lifetime"/>
+      <editor:PropertyField binding-path="m_speed"/>
+      <editor:PropertyField binding-path="m_scale"/>
+      <editor:PropertyField binding-path="m_randomRotation"/>
+
+      <engine:VisualElement style="height: 20px"/>
+
+      <engine:VisualElement name="physics">
+        <engine:Label text="Physics Projectile Config" class="SubHeaderText"/>
+        <editor:PropertyField binding-path="m_destroyAfterFirstImpact"/>
+        <editor:PropertyField binding-path="m_allowRepeatedImpactDamage"/>
+        <editor:PropertyField binding-path="m_maxBounces"/>
+      </engine:VisualElement>
+      
+      <engine:VisualElement name="piercing">
+        <engine:Label text="Piercing Projectile Config" class="SubHeaderText"/>
+        <editor:PropertyField binding-path="m_penetrableTag"/>
+        <editor:PropertyField binding-path="m_maxPenetrations"/>
+        <editor:PropertyField binding-path="m_impactForce"/>
+        <editor:PropertyField binding-path="m_gravity"/>
+        <editor:PropertyField binding-path="m_drag"/>
+      </engine:VisualElement>
+    </engine:VisualElement>
+
+    <engine:VisualElement name="instant-hit">
+      <engine:Label text="Instant-Hit Config" class="SubHeaderText"/>
+      <editor:PropertyField binding-path="m_hitLayers"/>
+      <editor:PropertyField binding-path="m_maxDistance"/>
+      <editor:PropertyField binding-path="m_penetrableTag"/>
+      <editor:PropertyField binding-path="m_maxPenetrations"/>
+      <editor:PropertyField binding-path="m_impactForce"/>
+    </engine:VisualElement>
+
+    <engine:VisualElement style="height: 20px"/>
+    <engine:VisualElement name="explosion">
+      <engine:Label text="Explosion Config" class="SubHeaderText"/>
+      <engine:VisualElement name="projectile">
+        <editor:PropertyField binding-path="m_explosionType"/>
+      </engine:VisualElement>
+      <engine:VisualElement name="instant-hit">
+        <editor:PropertyField binding-path="m_explodeOnImpact"/>
+      </engine:VisualElement>
+      <editor:PropertyField binding-path="m_explosionDamageMin"/>
+      <editor:PropertyField binding-path="m_explosionDamageMax"/>
+      <editor:PropertyField binding-path="m_explosionDamageType"/>
+      <editor:PropertyField binding-path="m_explosionRadius"/>
+      <editor:PropertyField binding-path="m_explosionOverlapLayers"/>
+      <editor:PropertyField binding-path="m_explosionObstacleLayers"/>
+    </engine:VisualElement>
+
+    <engine:VisualElement style="height: 20px"/>
+    <engine:VisualElement name="effects">
+      <engine:Label text="Effects Config" class="SubHeaderText"/>
+      <editor:PropertyField binding-path="m_impactEffectMinSpeed"/>
+      <editor:PropertyField binding-path="m_impactEffect"/>
+      <editor:PropertyField binding-path="m_explosionEffect"/>
+      <engine:VisualElement name="projectile">
+        <editor:PropertyField binding-path="m_projectileTrailPrefab"/>
+      </engine:VisualElement>
+      <engine:VisualElement name="instant-hit">
+        <editor:PropertyField binding-path="m_instantHitTrailPrefab"/>
+      </engine:VisualElement>
+    </engine:VisualElement>
+    
+  </engine:VisualElement>
+</engine:UXML>
